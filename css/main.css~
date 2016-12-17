@@ -121,12 +121,12 @@
 
 .project-name {
     text-align: center;
-    color: #ce6e6e;
+    color: #656565;
     margin-bottom: 10px;
 }
 
 .project-link {
     text-align: center;
-    color: #f78b8b;
+    color: #868585;
     margin: 0px;
 }
