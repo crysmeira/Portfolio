@@ -25,34 +25,45 @@
 .name {
     font-size: 60px;
     margin-top: 10px;
-    margin-bottom: 5px;
-    color: #efc2c2;
+    margin-bottom: 1px;
+    color: #666756;
 }
 
 .other-info {
-    margin-top: 5px;
-    color: #efc2c2;
+    margin-top: 1px;
+    color: #666756;
 }
 
 .line-separator {
     height: 4px;
-    background: #ff9999;
+    background: #bbbbbb;
     border-bottom: 1px solid #bcbbbb;
     margin-bottom: 30px;
     margin-top: 10px;
 }
 
-.projects {
-    color: #c16969;
+.projects-header {
+    font-weight: 400;
+    color: #bcbbbb;
     margin-top: 40px;
 }
 
 .project-name {
-    color: #ce6e6e;
+    color: #666756;
     margin-bottom: 2px;
 }
 
 .project-link {
-    color: #f78b8b;
+    color: #666756;
     margin: 0px;
+}
+
+.project-img-container {
+    height: 210px;
+}
+
+.project-img {
+    display: block;
+    width: 100%;
+    max-height: 100%;
 }

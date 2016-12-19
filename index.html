@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Framework Test Page</title>
+  <title>Crystiane Meira - Portfolio</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
@@ -13,39 +13,51 @@
   <div class="container">
     <div class="row header">
       <div class="col-md-6">
-        <img class="img-circle img-responsive" src="http://placekitten.com/120/120" alt="Logo">
+        <img class="img-circle img-responsive" src="http://placehold.it/120x120" alt="Logo">
       </div>
       <div class="col-md-6 text-right text-uppercase">
-        <h1 class="name">Name Here</h1>
+        <h1 class="name text-thin">Crystiane Meira</h1>
         <h3 class="other-info">Other Info</h3>
       </div>
     </div>
     <div class="line-separator"></div>
     <div class="row">
       <div class="col-md-12">
-        <img class="img-responsive" src="http://placekitten.com/1140/350" alt="Projects Image">
+        <img class="img-responsive" src="http://placehold.it/1140x600" alt="Projects Image">
       </div>
     </div>
     <div class="row">
-        <div class="col-md-12">
-            <h2 class="projects">Projects</h2>
-        </div>
+      <div class="col-md-12">
+        <h2 class="projects-header">Projects</h2>
+      </div>
     </div>
     <div class="row text-center">
       <div class="col-md-4">
-        <img class="project-img img-responsive" src="http://placekitten.com/360/200" alt="Project 1 - Image" data-toggle="modal" data-target="#project1">
-        <h3 class="project-name text-uppercase">Project Name</h3>
-        <p class="project-link">http://github.com/crysmeira</p>
+        <div class="project-img-container">
+          <img class="project-img img-responsive" src="img/shopping_list_app.png" alt="Shopping List App" data-toggle="modal" data-target="#project1">
+        </div>
+        <h3 class="project-name text-uppercase">Shopping List App</h3>
+        <a href="http://github.com/crysmeira/Shopping-List">
+          <p class="project-link">http://github.com/crysmeira/Shopping-List</p>
+        </a>
       </div>
       <div class="col-md-4">
-        <img class="project-img img-responsive" src="http://placekitten.com/360/200" alt="Project 2 - Image" data-toggle="modal" data-target="#project2">
-        <h3 class="project-name text-uppercase">Project Name</h3>
-        <p class="project-link">http://github.com/crysmeira</p>
+        <div class="project-img-container">
+          <img class="project-img img-responsive" src="img/movie_catalog.png" alt="Movie Catalog" data-toggle="modal" data-target="#project2">
+        </div>
+        <h3 class="project-name text-uppercase">Movie Catalog</h3>
+        <a href="http://github.com/crysmeira/Movie-Catalog">
+          <p class="project-link">http://github.com/crysmeira/Movie-Catalog</p>
+        </a>
       </div>
       <div class="col-md-4">
-        <img class="project-img img-responsive" src="http://placekitten.com/360/200" alt="Project 3 - Image" data-toggle="modal" data-target="#project3">
+        <div class="project-img-container">
+          <img class="project-img img-responsive" src="http://placehold.it/360x210" alt="Project 3 - Image" data-toggle="modal" data-target="#project3">
+        </div>
         <h3 class="project-name text-uppercase">Project Name</h3>
-        <p class="project-link">http://github.com/crysmeira</p>
+        <a href="http://github.com/crysmeira">
+          <p class="project-link">http://github.com/crysmeira</p>
+        </a>
       </div>
     </div>
   </div>
@@ -56,11 +68,11 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel1">First Project</h4>
+          <h4 class="modal-title" id="myModalLabel1">Shopping List App</h4>
         </div>
         <div class="modal-body">
-          <img class="img-responsive" src="http://placekitten.com/600/200" alt="Project Image">
-          This was my first project in this class. I learned a lot about HTML and CSS.
+          <img class="img-responsive" src="img/shopping_list_app.png" alt="Shopping List App">
+          A Shopping List App for Android using Java. The app has useful functionalities, such as search, and total price estimate; and a light, but intuitive UI.
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -73,11 +85,11 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel2">Second Project</h4>
+          <h4 class="modal-title" id="myModalLabel2">Movie Catalog</h4>
         </div>
         <div class="modal-body">
-          <img class="img-responsive" src="http://placekitten.com/600/200" alt="Project Image">
-          This was my first project in this class. I learned a lot about HTML and CSS.
+          <img class="img-responsive" src="img/movie_catalog.png" alt="Movie Catalog">
+          Project to keep a catalog of movies using Spring Tool Suite, Java, Maven, Tomcat, MySQL, and Thymeleaf. Based on a workshop from Algaworks.
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -93,7 +105,7 @@
           <h4 class="modal-title" id="myModalLabel3">Third Project</h4>
         </div>
         <div class="modal-body">
-          <img class="img-responsive" src="http://placekitten.com/600/300" alt="Project Image">
+          <img class="img-responsive" src="http://placehold.it/360x210" alt="Project Image">
           This was my first project in this class. I learned a lot about HTML and CSS.
         </div>
         <div class="modal-footer">
